@@ -73,7 +73,7 @@ DEBUG_CONSOLE=false
 #===============#
 # Use an absolute path, a relative path, or a URL
 
-CONFIG_PATH="/librechat.coco.yaml"
+CONFIG_PATH="./librechat.coco.yaml"
 
 #===================================================#
 #                     Endpoints                     #
@@ -606,8 +606,8 @@ FIREBASE_APP_ID=
 AWS_ENDPOINT_URL=
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
-AWS_REGION=
-AWS_BUCKET_NAME=
+AWS_REGION=us-east-1
+AWS_BUCKET_NAME=coco-librechat
 
 #========================#
 # Azure Blob Storage     #
