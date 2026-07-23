@@ -113,14 +113,15 @@ registration:
   allowedDomains:
   - "codecombat.com"
 
-# Example Balance settings
-# balance:
-#   enabled: false
-#   startBalance: 20000
-#   autoRefillEnabled: false
-#   refillIntervalValue: 30
-#   refillIntervalUnit: 'days'
-#   refillAmount: 10000
+# Balance settings: $150/month per-user hard limit (1,000,000 credits = $1 USD)
+# Blocks message sending once a user's credits run out; refills automatically each month.
+balance:
+  enabled: true
+  startBalance: 150000000
+  autoRefillEnabled: true
+  refillIntervalValue: 30
+  refillIntervalUnit: 'days'
+  refillAmount: 150000000
 
 # Example Transactions settings
 # Controls whether to save transaction records to the database
